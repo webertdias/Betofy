@@ -18,3 +18,34 @@ html,body{
     background-color: black;
     overflow-x: hidden;
 }
+
+.sidebar__wraper{
+    padding-bottom: 200px;
+}
+
+.sidebar__menu{
+    margin: 20px 0;
+    color: rgb(190, 190, 190);
+}
+
+.sidebar__logo{
+    max-width: 250px;
+    width: 100%;
+}
+
+.sidebar__menu a{
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+.sidebar__menu svg{
+    margin: 0 20px;
+}
+
+.sidebar__menu a .sidebar__menu__selecionado{
+    color: white;
+    background-color: rgb(80, 80, 80);
+    border-radius: 5px;
+}
