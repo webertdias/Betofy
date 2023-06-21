@@ -31,6 +31,11 @@ html,body{
 .sidebar__logo{
     max-width: 250px;
     width: 100%;
+    margin: 10px;
+}
+
+.sidebar__logo i{
+    margin: 10px;
 }
 
 .sidebar__menu a{
@@ -38,9 +43,10 @@ html,body{
     text-decoration: none;
     display: block;
     padding: 10px 0;
+    margin: 0;
 }
 
-.sidebar__menu svg{
+.sidebar__menu i{
     margin: 0 20px;
 }
 
