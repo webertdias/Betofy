@@ -1,30 +1,58 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:ital@0;1&family=Poppins:wght@100;200;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:ital@0;1&family=Poppins:wght@100;200;600;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
     <title>Spotify</title>
 </head>
+
 <body>
     <div class="sidebar">
         <div class="sidebar__wraper">
 
             <div class="sidebar__logo">
-                  <a href="#"><img src="img/logo.jpg" width="50px" height="50px">BetoFy</a>  
-            </div>
-    
-            <div class="sidebar__menu">
-                <a class="sidebar__menu__selecionado"><i class="fa-solid fa-house"></i>Inicio</a>
-                <a><i class="fa-solid fa-magnifying-glass"></i>Buscar</a>
-                <a><i class="fa-solid fa-book"></i>Biblioteca</a>   
+                <a><i class="fa-brands fa-spotify fa-2xl" style="color: #d44c34;"></i>Betofly</a>
 
             </div>
-    
+
+            <div class="sidebar__menu">
+                <a class="sidebar__menu__selecionado" href="#"><i class="fa-solid fa-house"></i>Inicio</a>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i>Buscar</a>
+                <a href="#"><i class="fa-solid fa-book"></i>Biblioteca</a>
+
+            </div>
+
+            <div class="sidebar__menu">
+                <p class="sidebar__menu__title">Playlist</p>
+
+                <div class="sidebar__menu__item">
+                    <div class="sidebar__menu__componente">
+                        +
+                    </div>
+                    <span>Criar Playlist</span>
+
+                </div>
+
+                <div class="sidebar__menu__item">
+                    <div class="sidebar__menu__componente">
+                        <img src="img/musicasCurtidas.jpg" alt="" width="50px">
+                        <span>Musicas curtidas</span>
+                    </div>
+                    
+
+                </div>
+
+            </div>
+
         </div>
-        
+
     </div>
     <script src="https://kit.fontawesome.com/4073744bd0.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

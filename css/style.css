@@ -23,19 +23,21 @@ html,body{
     padding-bottom: 200px;
 }
 
-.sidebar__menu{
-    margin: 20px 0;
-    color: rgb(190, 190, 190);
-}
-
 .sidebar__logo{
     max-width: 250px;
     width: 100%;
-    margin: 10px;
+    margin: 20px;
+    color: rgb(190, 190, 190);
 }
 
 .sidebar__logo i{
-    margin: 10px;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.sidebar__menu{
+    margin: 20px 0;
+    color: rgb(190, 190, 190);
 }
 
 .sidebar__menu a{
@@ -50,8 +52,20 @@ html,body{
     margin: 0 20px;
 }
 
-.sidebar__menu a .sidebar__menu__selecionado{
-    color: white;
+.sidebar__menu a.sidebar__menu__selecionado{
+    color:white;
     background-color: rgb(80, 80, 80);
     border-radius: 5px;
+}
+
+.sidebar__menu__item{
+    margin-top: 12px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.sidebar__menu p.sidebar__menu__title{
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
 }
