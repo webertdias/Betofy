@@ -69,3 +69,14 @@ html,body{
     text-transform: uppercase;
     font-size: 14px;
 }
+
+.sidebar__menu__item__componente{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
