@@ -1,15 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto";
 }
 
-html,body{
+html,
+body {
     height: 100%;
 }
 
-.sidebar{
+.sidebar {
     float: left;
     width: 250px;
     padding: 10px;
@@ -19,28 +20,28 @@ html,body{
     overflow-x: hidden;
 }
 
-.sidebar__wraper{
+.sidebar__wraper {
     padding-bottom: 200px;
 }
 
-.sidebar__logo{
+.sidebar__logo {
     max-width: 250px;
     width: 100%;
     margin: 20px;
     color: rgb(190, 190, 190);
 }
 
-.sidebar__logo i{
+.sidebar__logo i {
     font-size: 30px;
     margin: 20px;
 }
 
-.sidebar__menu{
+.sidebar__menu {
     margin: 20px 0;
     color: rgb(190, 190, 190);
 }
 
-.sidebar__menu a{
+.sidebar__menu a {
     color: rgb(190, 190, 190);
     text-decoration: none;
     display: block;
@@ -48,29 +49,29 @@ html,body{
     margin: 0;
 }
 
-.sidebar__menu i{
+.sidebar__menu i {
     margin: 0 20px;
 }
 
-.sidebar__menu a.sidebar__menu__selecionado{
-    color:white;
+.sidebar__menu a.sidebar__menu__selecionado {
+    color: white;
     background-color: rgb(80, 80, 80);
     border-radius: 5px;
 }
 
-.sidebar__menu__item{
+.sidebar__menu__item {
     margin-top: 12px;
     cursor: pointer;
     vertical-align: middle;
 }
 
-.sidebar__menu p.sidebar__menu__title{
+.sidebar__menu p.sidebar__menu__title {
     color: white;
     text-transform: uppercase;
     font-size: 14px;
 }
 
-.sidebar__menu__item__componente{
+.sidebar__menu__item__componente {
     width: 30px;
     height: 30px;
     text-align: center;
@@ -79,4 +80,32 @@ html,body{
     color: black;
     font-weight: bold;
     background-color: white;
+}
+
+.sidebar__menu__item span {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.sidebar__menu__item img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.sidebar__playlists {
+    padding: 20px 0;
+    border-top: 1px solid rgb(40, 40, 40);
+}
+
+.sidebar__playlists a {
+    margin: 10px 0;
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+}
+
+.sidebar__playlists a:hover {
+    color: white;
 }
