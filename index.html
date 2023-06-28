@@ -164,22 +164,30 @@
 
     </div>
 
-     <div class="player">
+    <div class="player">
         <div class="player__artist">
 
         </div>
         <div class="player__control">
-            <div class="player__controll_buttons">
+            <div class="player__control__buttons">
                 <a href=""><i class="fa-solid fa-backward-fast"></i></a>
-                <a id="pauseBtn" href="#"><i class="fa-solid fa-circle-pause"></i></a>
-                 <a id="playBtn" href="#"><i class="fa-solid fa-circle-play"></i></a>
+                <a  style="display: none;" id="pauseBtn" href="#"><i class="fa-solid fa-circle-pause"></i></a>
+                <a id="playBtn" href="#"><i class="fa-solid fa-circle-play"></i></a>
                 <a href=""><i class="fa-solid fa-forward-fast"></i></a>
 
             </div>
 
+            <div class="player__control__progress">
+                <div style="width: 50%;" class="player__control__progress__2"></div>
+            </div>
+
         </div>
 
-     </div>
+    </div>
+
+    <audio id="audioplayer" style="position: absolute; left: 0; top:0; z-index: -999; opacity: 0;" controls="">
+    
+    </audio>
 
     <script src="https://kit.fontawesome.com/4073744bd0.js" crossorigin="anonymous"></script>
 </body>
