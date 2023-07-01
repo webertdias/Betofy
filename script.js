@@ -4,6 +4,10 @@ let loaded = false;
 let playBtn = document.getElementById('playBtn');
 let pauseBtn = document.getElementById('pauseBtn');
 
+function play(){
+    document.getElementById('song').play();
+};
+
 pauseBtn.addEventListener('click',(e)=>{
     e.preventDefault();
 
@@ -19,9 +23,10 @@ playBtn.addEventListener('click',(e)=>{
 
     playBtn.style.display = 'none';
     pauseBtn.style.display = 'inline';
+    
     audioPlayer.play();
     return false;
-    
+        
 });
 
 const playSong = (file) =>{
@@ -57,3 +62,5 @@ document.querySelectorAll('.main__col').forEach(item =>{
 
     })
 });
+
+
