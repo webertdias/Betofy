@@ -4,15 +4,13 @@ let loaded = false;
 let playBtn = document.getElementById('playBtn');
 let pauseBtn = document.getElementById('pauseBtn');
 
-function play(){
-    document.getElementById('song').play();
-};
 
 pauseBtn.addEventListener('click',(e)=>{
     e.preventDefault();
 
     playBtn.style.display = 'inline';
     pauseBtn.style.display = 'none';
+
     audioPlayer.pause();
     return false;
     
@@ -32,7 +30,7 @@ playBtn.addEventListener('click',(e)=>{
 const playSong = (file) =>{
       
     if(loaded == false){
-        audioPlayer.innerHTML = `source src="`+file+`" type="audio/mp3"/>`;
+        audioPlayer.innerHTML = `<source src="`+file+`" type="audio/mp3"/>`;
         loaded = true;
     }
 
